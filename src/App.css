@@ -10,42 +10,47 @@
 }
 
 .title {
+	width: 100%;	
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+	padding-left: 10px;
+
+	text-align: left;
 	text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	background-color: #4287f5;
+	color: white;
 }
 
 /* Input */
 .textInput {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	
-	width: 100%;
-	border: 1px solid gray;
-	border-radius: 10px;
-	padding: 20px 20px 10px 20px;	
+	padding-bottom: 8px;
+	border-radius: 10px;	
 	background-color: white;
-}
-
-.textInput input {
-	margin-top: 10px;
 }
 
 .textInput textarea {
-	width: 100%;
-	min-height: 150px;
+	width: 98%;	
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
 }
 
 /* Output */
-.markdownOutput {
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-
+.markdownOutput {	
 	width: 100%;
 	margin-top: 15px;
-	padding: 20px;
-	border: 1px solid gray;
+	padding: 0px;
 	border-radius: 10px;
 	background-color: white;
+}
+
+.render {
+	padding-left: 20px;
+	padding-right: 20px;
 }

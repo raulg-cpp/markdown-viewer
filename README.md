@@ -8,6 +8,7 @@ The page uses:
 - [bootstrap](https://getbootstrap.com/docs/5.2/getting-started/download/)
 - [react-use-keypress](https://www.npmjs.com/package/react-use-keypress)
 - [react-markdown](https://www.npmjs.com/package/react-markdown)
+- [remark-cfm](https://github.com/remarkjs/remark-gfm)
 
 ## Preview
 View the page at: https://raulg-cpp.github.io/markdown-viewer/

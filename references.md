@@ -7,4 +7,5 @@ https://www.npmjs.com/package/react-markdown
 
 https://remarkjs.github.io/react-markdown/
 
+https://bobbyhadz.com/blog/react-get-textarea-value
 
