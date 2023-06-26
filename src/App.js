@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import ReactMarkdown from 'react-markdown'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	//=== State ===
+	const [markdown, setMarkdown] = useState("Enter __Markdown__!");
+		
+	//=== JSX ===
+	return (
+	<div className="App">
+    	<h1 className="title">Markdown Preview</h1>
+	
+    	<form className="textInput shadow">
+    		<textarea></textarea>
+    		<input className="btn btn-secondary" type="submit" value="Submit"/>
+    	</form>
+    	
+    	<section className="markdownOutput shadow">
+    		<ReactMarkdown children={markdown} />
+    	</section>
+	</div>
+	);
 }
 
 export default App;
